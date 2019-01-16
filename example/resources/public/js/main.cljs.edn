@@ -1,0 +1,5 @@
+{:require [lazy-example.frontend.core]
+ :init-fns [lazy-example.frontend.core/init]
+ :boot-reload {:on-jsload lazy-example.frontend.core/init}
+ :compiler-options {:asset-path "/js/main.out"}
+ }
